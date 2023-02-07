@@ -1,0 +1,154 @@
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#img-contac {
+    width: 30px;
+    height: 30px;
+}
+#img-contac2 {
+    width: 30px;
+    height: 30px;
+}
+
+h2 {
+    color: #00FFF5;
+    text-align: center;
+}
+
+.barraLateral {
+    position: absolute;
+    top: 16%;
+    left: 80%;
+    height: 80%;
+    width: 20%;
+    background-color: #393E46;
+    color: white;
+    padding-left: 15px;
+}
+
+.contenido-p {
+    background-color: #393E46;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 16%;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+}
+
+.contenido {
+    background-color: #393E46;
+    text-align: center;
+    position: absolute;
+    top: 16%;
+    left: 0;
+    height: 80%;
+    width: 80%;
+    overflow: auto;
+}
+
+.contenido p {
+    color: white;
+    margin: 15px;
+    padding: 20px;
+}
+
+.contenido input {
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #00ADB5;
+}
+
+.piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #00ADB5 ;
+    color: white;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.piePagina address {
+    display: inline;
+}
+
+#card-prin {
+    margin: 0 auto;
+    background: #222831;
+    color: white;
+    width: 900px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px #00ADB5;
+    border-radius: 20px;
+}
+
+#card-1 {
+    margin: 0 auto;
+    background: #222831;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px #00ADB5;
+    border-radius: 20px;
+}
+
+#card-2 {
+    margin: 0 auto;
+    background: #222831;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px #00ADB5;
+    border-radius: 20px;
+}
+
+#card-3 {
+    margin: 0 auto;
+    background: #222831;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px #00ADB5;
+    border-radius: 20px;
+}
+
+#card-4 {
+    margin: 0 auto;
+    background: #222831;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px #00ADB5;
+    border-radius: 20px;
+}
+
+#catalogo-card {
+    margin: 0 auto;
+    background: #222831;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px #00ADB5;
+    border-radius: 20px;
+}
+
+.contenido-p a {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dog Friendly</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1><a href="index.html" >Dog Friendly</a></h1>
+        <header class="header">
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pag6.html">Adopta</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pag2.html">Alimentos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pag3.html">Farmacia</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pag4.html">Juguetes</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pag5.html">Snacks y Suplementos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pag7.html">Donativos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pag8.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="barraLateral">
+            <br/>
+            <br/>
+            <h2>Catalogo</h2>
+            <br/>
+            <p id="catalogo-card">
+                <span style="color: #00FFF5">
+                    <strong>Filtros habilitados</strong>
+                </span>
+                <br/>
+                <br/>
+                <span style="color: #00FFF5">
+                    <strong>Precio </strong>
+                    <br/>
+                    <span style="color: white"><label>₡4.900 - ₡35.800</label><br/><input type="range" value="9500" min="4900" max="35800" oninput="this.nextElementSibling.value = this.value"> ₡ <output>35.800</output> <br/>                  
+                </span>   
+                <br/>
+                <span style="color: #00FFF5">
+                    <strong>Marca </strong>
+                    <br/>
+                    <br/>
+                    <span style="color: white"><input type="checkbox" value="checkbox" />Pedigree</span><br/>
+                    <span style="color: white"><input type="checkbox" value="checkbox" />Hill’s</span><br/>
+                    <span style="color: white"><input type="checkbox" value="checkbox" />Canine Club</span><br/>                    
+                </span>
+            </p>
+        </aside>        
+        <section class="contenido">
+            <br/>
+            <br/>
+            <h2>Alimentos</h2>
+            <br/>
+            <br/>
+            <article id="card-1">
+                <header><strong>Pedigree Adulto</strong></header>
+                <br/>
+                <figure>
+                    <img src="imagenes/alim1.jpg" alt="Pedigree Adulto" />
+                    <br/>
+                </figure>
+                <p>
+                    <span style="color:#00FFF5">
+                        <strong>Marca:</strong> <span style="color: white">Pedigree </span>
+                    </span>
+                    <br/>
+                    <span style="color:#00FFF5">
+                        <strong>Peso: </strong><span style="color: white">25kg </span>
+                    </span>
+                    <br/>
+                    <span style="color:#00FFF5">
+                        <strong>Desde: </strong><span style="color: white">₡20.400 </span>
+                    </span>
+                </p>
+                <br/>
+                <label>Cantidad</label> <input type="number" name="number" value="1" min="1" max="10"/>
+                <input type="button" name="comprar" value="Comprar"/><br/>
+                <br/>
+                <br/>
+            </article>
+            <br/>
+            <br/>
+            <article id="card-2">
+                <header><strong>Hill’s Science Diet Adult +7</strong></header>
+                <br/>
+                <figure>
+                    <img src="imagenes/alim2.jpg" alt="Hill’s Science Diet Small Paws"/>
+                    <br/>
+                </figure>
+                <p>
+                    <span style="color:#00FFF5">
+                        <strong>Marca:</strong> <span style="color: white">Hill’s Science Diet </span>
+                    </span>
+                    <br/>
+                    <span style="color:#00FFF5">
+                        <strong>Peso: </strong><span style="color: white">5kg </span>
+                    </span>
+                    <br/>
+                    <span style="color:#00FFF5">
+                        <strong>Desde: </strong><span style="color: white">₡12.500 </span>
+                    </span>
+                </p>
+                <br/>
+                <label>Cantidad</label> <input type="number" name="number" value="1" min="1" max="10"/>                
+                <input type="button" name="comprar" value="Comprar"/><br/>
+                <br/>
+            </article>
+            <br/>
+            <br/>
+            <article id="card-3">
+                <header><strong>Canine Club</strong></header>
+                <br/>
+                <figure>
+                    <img src="imagenes/alim3.jpg" alt=""/>
+                    <br/>
+                    <br/>
+                </figure>
+                <p>
+                    <span style="color:#00FFF5">
+                        <strong>Marca:</strong> <span style="color: white">Canine Club</span>
+                    </span>
+                    <br/>
+                    <span style="color:#00FFF5">
+                        <strong>Peso: </strong><span style="color: white">22,7kg </span>
+                    </span>
+                    <br/>
+                    <span style="color:#00FFF5">
+                        <strong>Desde: </strong><span style="color: white">₡22.500 </span>
+                    </span>
+                </p>
+                <br/>
+                <label>Cantidad</label> <input type="number" name="number" value="1" min="1" max="10"/>                
+                <input type="button" name="comprar" value="Comprar"/><br/>
+                <br/>
+                <br/>
+            </article>
+            <br/>
+            <br/>
+        </section>
+        <footer class="piePagina">Derechos Reservados &COPY; 2023 <address>Santa Ana, Rio Oro</address><address> TEL:8452-6495</address></footer>
+    </body>
+</html>
